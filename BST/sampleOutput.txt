@@ -1,0 +1,193 @@
+Printing the tree
+        /115
+      /99
+    /50
+  /15
+    \12
+       >10
+      /8
+    /5
+  \4
+    \3
+
+Ordered list of values in the tree: 
+3, 4, 5, 8, 10, 12, 15, 50, 99, 115, 
+The count of nodes in tree is 10
+The count of leaf nodes is 4
+The largest value is 115
+The smallest value is  3
+The 7th smallest value is  15
+The 12th smallest value is  No 12-th element
+The width of the tree is 8
+
+Fall has come, so the tree sheds its leaves 
+Now it looks like: 
+      /99
+    /50
+  /15
+>10
+    /5
+  \4
+
+Now the count of nodes in tree is 6
+
+Looking at the family tree, and want to know the relation between 10 and 5
+10 is the parent
+Looking the other way, 10 is still the parent.
+
+Looking at the family tree, and want to know the relation between 10 and 555 No ancestral relation
+Lets try out the remove successor function, lets remove the successor of 50
+50's successor is 99
+With it removed, the tree looks like
+    /50
+  /15
+>10
+    /5
+  \4
+
+Lets try with a leaf node, lets remove the successor of 5
+5's successor is There is no successor
+Our tree still looks like
+    /50
+  /15
+>10
+    /5
+  \4
+
+Lets try with a value not int the tree, lets remove the successor of 1
+1's successor is The value 1 is not in the tree
+Our tree still looks like
+    /50
+  /15
+>10
+    /5
+  \4
+
+
+
+Now lets try making another tree to see if all the functions still work
+Printing the tree
+    /175
+  /174
+      /170
+        \130
+    \123
+      \99
+>88
+      /87
+    /56
+  \53
+    \37
+        /28
+      \17
+        \15
+
+Ordered list of values in the tree: 
+15, 17, 28, 37, 53, 56, 87, 88, 99, 123, 130, 170, 174, 175, 
+The count of nodes in tree is 14
+The count of leaf nodes is 6
+The largest value is 175
+The smallest value is  15
+The 7th smallest value is  87
+The 12th smallest value is  170
+The width of the tree is 9
+
+Fall has come, so the tree is shedding its leaves 
+Now it looks like: 
+  /174
+      /170
+    \123
+>88
+    /56
+  \53
+    \37
+      \17
+
+Now the count of nodes in tree is 8
+
+Looking at the family tree, and want to know the relation between 88 and 123
+88 is the parent
+Looking the other way, 88 is still the parent.
+
+Looking at the family tree, and want to know the relation between 37 and 170 No ancestral relation
+
+Lets try out the remove successor function, lets remove the successor of 88
+88's successor is 123
+With it removed, the tree looks like
+  /174
+    \170
+>88
+    /56
+  \53
+    \37
+      \17
+
+
+
+Now lets try making a really off balance tree to see if all the functions still work
+Printing the tree
+                  /10
+                /9
+              /8
+            /7
+          /6
+        /5
+      /4
+    /3
+  /2
+>1
+
+Ordered list of values in the tree: 
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
+The count of nodes in tree is 10
+The count of leaf nodes is 1
+The largest value is 10
+The smallest value is  1
+The 7th smallest value is  7
+The 12th smallest value is  No 12-th element
+The width of the tree is 10
+
+
+Fall has come, so the tree is shedding its leaves 
+Now it looks like: 
+                /9
+              /8
+            /7
+          /6
+        /5
+      /4
+    /3
+  /2
+>1
+
+Now the count of nodes in tree is 9
+
+Looking at the family tree, and want to know the relation between 9 and 1
+1 is the parent
+Looking the other way, 1 is still the parent.
+
+Looking at the family tree, and want to know the relation between 0 and 9
+No ancestral relation
+
+Lets try out the remove successor function, lets remove the successor of 7
+7's successor is 8
+With it removed, the tree looks like
+              /9
+            /7
+          /6
+        /5
+      /4
+    /3
+  /2
+>1
+
+Lets try it with the root, lets remove the successor of 1
+1's successor is 2
+With it removed, the tree looks like
+            /9
+          /7
+        /6
+      /5
+    /4
+  /3
+>1
